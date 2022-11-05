@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-
+@import url(https://fonts.googleapis.com/css?family=Red+Hat+Display:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 *{
     margin: 0;
@@ -28,4 +28,50 @@ ul li a{
 .nav-item button:hover{
     background: #ED80FD;
     border: 0;
+}
+/* styling the text and image in the header*/
+header .container-sm{
+    background: linear-gradient(312.52deg, #EE9AE5 7.4%, #5961F9 91.62%);
+    border-radius: 10px 10px 80px 10px;
+    display: flex;
+    padding: 20px 20px 20px 40px;
+}
+.texts{
+    margin-right: 20px;
+}
+.main-text{
+    font-family: 'Red hat Display';
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    color: #fff;
+}
+.main-p{
+    font-family: 'Red hat Display';
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.main-image{
+    margin-top: 100px;
+}
+.main-image img{
+    max-width: 600px;
+}
+.btns{
+    margin-top: 50px;
+}
+.btns button{
+    margin-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container-sm .btns button{
+    background: #ED80FD;
+    color: #fff;
+    font-family: 'jost';
+}
+.container-sm .btns button:hover{
+    background: none;
+    border: 1px solid #ED80FD ;
 }
