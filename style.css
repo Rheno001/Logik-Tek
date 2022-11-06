@@ -75,3 +75,100 @@ header .container-sm{
     background: none;
     border: 1px solid #ED80FD ;
 }
+/*second section*/
+#second .container-sm{
+    padding: 20px 20px 20px 40px;
+    display: flex;
+    margin-top: 70px;
+}
+.writeup{
+    margin-right: 20px;
+}
+.writeup h3{
+    color: #010851;
+    font-family: 'Red hat display';
+    font-weight: 700;
+    line-height: 35px;
+}
+.writeup p{
+    margin-top: 30px;
+    color: #454868;
+    font-family: 'Jost';
+    font-weight: 500;
+    line-height: 30px;
+}
+.col{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+.col .card{
+    border-radius: 10px;
+    box-shadow:  0px 10px 50px #E0E0E0;
+    padding: 10px;
+}
+.mid{
+    margin-top: 50px;
+}
+.card-text{
+    color: #010851;
+    font-weight: 700;
+    font-family: 'Red hat display';
+}
+.mid .card-body{
+    margin-bottom: 20px;
+}
+.card:hover{
+    background: #ED80FD;
+    transition: 1s;
+    transform: translateY(-20px);
+}
+@media (max-width:800px){
+    /*header*/
+    header .container-sm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-text{
+        font-size: 50px;
+        text-align: center;
+    }
+    .main-p{
+        text-align: center;
+    }
+    .btns button{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .btns{
+        display: flex;
+        justify-content: center;
+        margin-left: 30px
+    }
+   
+    .main-image{
+        display: flex;
+        justify-content: center;
+    }
+    .main-image img{
+        width: 400px;
+        margin-right: 20px;
+    }
+    /*first section*/
+    #second .container-sm{
+        display: flex;
+        flex-direction: column;
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .beg{
+        margin-top: 20px;
+    }
+    .mid{
+        margin-top: 0px;
+    }
+}
