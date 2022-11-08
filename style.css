@@ -106,6 +106,7 @@ header .container-sm{
     border-radius: 10px;
     box-shadow:  0px 10px 50px #E0E0E0;
     padding: 10px;
+    border: 0;
 }
 .mid{
     margin-top: 50px;
@@ -213,6 +214,9 @@ h3 span{
     border: 1px solid #ED80FD ;
     color: #010851;
 }
+#fifth .container-sm{
+    padding: 80px 20px 20px 40px;
+}
 
 @media (max-width:800px){
     /*header*/
@@ -231,6 +235,11 @@ h3 span{
     .btns button{
         margin-top: 10px;
         font-size: 14px;
+        overflow: hidden;
+        padding: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .btns{
         display: flex;
@@ -261,6 +270,11 @@ h3 span{
     }
     .mid{
         margin-top: 0px;
+    }
+    .card:hover{
+        background: #ED80FD;
+        transition: 1s;
+        transform: translateX(20px);
     }
     #third .container-sm{
         display: flex;
