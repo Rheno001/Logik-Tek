@@ -312,6 +312,45 @@ h3 span{
     background: none;
     color: #ED80FD;
 }
+#sixth .container-sm .wrapper{
+    display: flex;
+    justify-content: space-between;
+    background:  linear-gradient(312.52deg, #EE9AE5 7.4%, #5961F9 91.62%);
+    padding: 40px 50px;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.pic img{
+    max-width: 450px;
+    max-height: 250px;
+}
+.wrapper button{
+    background: #ED80FD ;
+    padding: 10px 50px 10px 50px;
+    color: #fff;
+    margin-top: 30px;
+}
+.wrapper button:hover{
+    background: none;
+    color: #fff;
+    border:1px solid #ED80FD
+}
+.tex__butt{
+    margin-right: 20px;
+}
+.tex__butt h3, p{
+    color: #fff;
+    margin-bottom: 40px;
+}
+h3{
+    font-weight: 800;
+    font-family: 'jost';
+}
+.tex__butt p{
+    font-family: 'Red hat display';
+    font-weight: 500;
+}
 @media (max-width:800px){
     /*header*/
     header .container-sm{
@@ -447,4 +486,21 @@ h3 span{
         align-items: center;
         margin-right: 20px;
      }
+     #sixth .container-sm .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tex__butt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .pic img{
+        max-width: 200px;
+        max-height: 300px;
+    }
 }
