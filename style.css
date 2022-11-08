@@ -351,6 +351,41 @@ h3{
     font-family: 'Red hat display';
     font-weight: 500;
 }
+#footer .container-sm{
+    background: #010851 ;
+    padding: 20px 20px 20px 40px;
+    border-radius: 5px;
+}
+#footer .container-sm .sama{
+    display: flex;
+}
+.text_input{
+    margin-right: 30px;
+}
+.text_input p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.sama{
+    border-bottom: 1px solid rgba(224, 224, 224, 0.34);
+}
+.sama ul{
+    padding: 20px 30px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 30px;
+}
+.sama ul li h4{
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'jost';
+}
+.sama ul li{
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 15px;
+    font-family: 'Red hat display';
+}
 @media (max-width:800px){
     /*header*/
     header .container-sm{
@@ -488,7 +523,7 @@ h3{
      }
      #sixth .container-sm .wrapper{
         display: flex;
-        flex-direction: column;
+        flex-direction: column  ;
         justify-content: center;
         align-items: center;
     }
@@ -502,5 +537,14 @@ h3{
     .pic img{
         max-width: 200px;
         max-height: 300px;
+    }
+    .text_input img{
+        max-width: 300px;
+        max-height: 300px;
+        margin-bottom: 10px;
+    }
+    #footer .container-sm .sama{
+        display: flex;
+        flex-direction: column;
     }
 }
