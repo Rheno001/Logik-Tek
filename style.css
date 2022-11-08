@@ -440,7 +440,7 @@ h3 span{
         align-items: center;
         text-align: center;
     }
-     .container-sm .row .col .first-card{
+     .container-sm .row .col{
         display: flex;
         flex-direction: column;
         justify-content: center;
