@@ -119,7 +119,17 @@ header .container-sm{
 .mid .card-body{
     margin-bottom: 20px;
 }
-.card:hover{
+.beg:hover{
+    background: #ED80FD;
+    transition: 1s;
+    transform: translateY(-20px);
+}
+.mid:hover{
+    background: #ED80FD;
+    transition: 1s;
+    transform: translateY(-20px);
+}
+.end:hover{
     background: #ED80FD;
     transition: 1s;
     transform: translateY(-20px);
@@ -214,10 +224,94 @@ h3 span{
     border: 1px solid #ED80FD ;
     color: #010851;
 }
+/*fifth section*/
 #fifth .container-sm{
     padding: 80px 20px 20px 40px;
-}
+    margin-top: 50px;
 
+}
+#fifth .container-sm .texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ .texts h3{
+    margin-bottom: 30px;
+    color: #010851;
+    font-family: 'Red hat display';
+    font-weight: 700;
+    line-height: 40px;
+}
+#fifth .texts p{
+    margin-bottom: 30px;
+    color: #010851;
+    font-family: 'jost';
+    font-weight: 500;
+}
+.texts ul{
+    margin-bottom: 50px;
+}
+.texts .form-check{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#fifth ul li{
+    list-style-type: none;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.card-body h3{
+    color: #010851;
+    font-family: 'jost';
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.card-body p{
+    font-weight: 500;
+    color: #454868;
+    margin-bottom: 30px;
+}
+.card-body li span{
+    color: #EE9AE5;
+    font-weight: 700;
+    font-family: 'jost';
+    font-size: 30px;
+    margin-right: 15px;
+}
+.card-body ul{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 0;
+    margin-top: 10px;
+}
+.form-check{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+.stuff label{
+    color: #010851;
+    font-weight: 400;
+}
+.card-body button{
+    background: #ED80FD;
+    padding: 10px 50px 10px 50px;
+    color: #fff;
+}
+.card-body button:hover{
+    background: none;
+    color: #ED80FD;
+}
 @media (max-width:800px){
     /*header*/
     header .container-sm{
@@ -271,7 +365,17 @@ h3 span{
     .mid{
         margin-top: 0px;
     }
-    .card:hover{
+    .beg:hover{
+        background: #ED80FD;
+        transition: 1s;
+        transform: translateX(20px);
+    }
+    .mid:hover{
+        background: #ED80FD;
+        transition: 1s;
+        transform: translateX(20px);
+    }
+    .end:hover{
         background: #ED80FD;
         transition: 1s;
         transform: translateX(20px);
@@ -320,4 +424,27 @@ h3 span{
         padding-right: 20px;
         font-size: 12px;
     }
+    #fifth .container-sm{
+        padding: 80px 20px 20px 40px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #fifth .container-sm .texts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+     .container-sm .row .col .first-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+     }
 }
