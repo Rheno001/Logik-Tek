@@ -1,2 +1,2 @@
 # Tech-company
- A tech companies landing page
+ A tech company's landing page
