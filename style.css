@@ -412,6 +412,7 @@ h3{
 .kasa p{
     color: rgba(255, 255, 255, 0.7);
     margin-top: 10px;
+    font-family: 'Red hat display';
 }
 .socials i{
     margin-left: 25px;
@@ -419,7 +420,9 @@ h3{
     font-size: clamp(12px, 2vw, 25px);
 }
 .attribution {margin-top: 15px; margin-bottom: 15px; font-size:clamp(14px, 2vw, 16px ) ; color: #000; text-align: center; }
-.attribution a { color: aqua; }
+.attribution a { color: rgb(94, 206, 206); }
+
+
 @media (max-width:800px){
     /*header*/
     header .container-sm{
@@ -590,6 +593,5 @@ h3{
     .socials i{
         margin-left: 0;
         padding: 10px;
-
     }
 }
