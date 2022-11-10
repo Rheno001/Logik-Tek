@@ -21,6 +21,9 @@ ul li a{
     line-height: 40px;
     font-family: 'Jost';
 }
+.nav-item a{
+    text-decoration: none;
+}
 .nav-item button{
     color: #010851;
     font-weight: 600;
