@@ -14,6 +14,10 @@ html{
     display: flex;
     justify-content: space-between;
 }
+.container-md .navbar-brand img{
+    width: 200px;
+    height: 60px;
+}
 ul{
     display: flex;
     align-items: center;
@@ -564,6 +568,12 @@ h3{
         align-items: center;
         margin-right: 20px;
      }
+     .card-body button{
+        background: #ED80FD;
+        padding: 10px 50px 10px 50px;
+        color: #fff;
+        font-size: 14px;
+    }
      #sixth .container-sm .wrapper{
         display: flex;
         flex-direction: column  ;
@@ -577,9 +587,13 @@ h3{
         margin-bottom: 20px;
         text-align: center;
     }
+    .tex__butt button{
+        font-size: 14px;
+    }
     .pic img{
-        max-width: 200px;
+        max-width: 180px;
         max-height: 300px;
+        margin-right: 20px;
     }
     .text_input img{
         max-width: 300px;
